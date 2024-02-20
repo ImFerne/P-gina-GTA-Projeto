@@ -1,0 +1,44 @@
+@media (max-width: 1024px){
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+
+    .home .infos {
+        padding: 30px;
+    }
+
+    .home .infos img {
+        max-width: 100px;
+    }
+
+    .home .infos .titulo{
+        font-size: 40px;
+    }
+
+    .compre-ja {
+        align-items: center;
+    }
+
+    .compre-ja .cartao{
+        width: 70%;
+        
+    }
+}
+
+@media (max-width: 768px){
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .cartao .infos .plataformas{
+        flex-direction: column;
+    }
+}
